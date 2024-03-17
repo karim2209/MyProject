@@ -1,0 +1,175 @@
+﻿* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Arial, sans-serif;
+    background-color: #F8FA70;
+    
+}
+#wrapper {
+    background-color: #C1C267;
+    color: #000066;
+    width: 80%;
+    margin: auto;
+}
+nav {
+    float: left;
+    width: 150px;
+}
+main {
+    display: block;
+    margin-left: 155px;
+    padding: 20px;    
+}
+header {
+    text-align: right;
+    font-size: 150%;
+    padding: 10px 10px 10px 150px;
+    background-image: url(../css/Powers-of-God-Horus-gods-of-ancient-egypt.jpg); 
+    background-repeat: no-repeat;
+}
+h1 {
+    margin-bottom: 20px;
+    color: #E6E6FA;
+    line-height: 200%;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-style: italic;
+    font-weight: bold;
+}
+h2 {
+    background-color: #797A04;
+    color: #E6E6FA;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-style: italic;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 95%;
+    text-align: center;
+    clear: both;
+    padding: 20px;    
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+    nav a:link {
+        color: #9C9C9A;
+    }
+
+    nav a:visited {
+        color: #767701;
+    }
+
+    nav a:hover {
+        color: #C4C4C1;
+    }
+#floatright {
+    margin: 10px;
+    float: right;
+    padding: 5px;
+    border: 1px solid #CCCCCC;
+    box-shadow: 5px 5px 5px #FAFAFA;
+    transform: rotate(3deg);
+}
+form {    
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+label {
+    float: left;
+    width: 100px;
+    clear: left;
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    margin-top: 10px;
+    display: block;
+}
+
+#mySubmit, #myReset {
+    margin-left: 110px;
+}
+
+@media only screen and (max-width: 1024px) {
+body {
+    margin: 0px;
+}
+
+#wrapper {
+     width: auto;
+}
+
+main {
+      margin-left: 0px;
+}
+
+nav {
+    float: none;
+    width: auto;
+}
+
+nav li {
+            display: inline-block;
+     padding: 0.5em;
+}
+
+ nav ul {
+            text-align: center;
+ }
+
+ nav a {
+            border-style: none;
+}
+
+ h1, h2 {
+     font-size: 120%;
+}
+p {
+        font-size: 90%;
+}
+}
+
+@media only screen and (max-width: 768px) {
+h1, h2 {
+    font-size: 100%;
+}
+
+p {
+    font-size: 80%;
+}
+
+nav, nav ul, nav li {
+     padding: 0px;
+}
+
+nav li {
+      display: block;
+}
+
+nav a {
+     display: block;
+     padding: 0.5em;
+     border-bottom: 2px ridge #00005D;
+}
+
+#floatright {
+    display: none;
+}
+}
